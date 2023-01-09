@@ -16,17 +16,17 @@ public class Main {
 
         System.out.println("Часть 3. Задание 2");
 
-        Car ladaGrande = new Car( "Lada", " Grande ", " в России", " желтого ",  2015, " 1.7.");
-        Car audiA8 = new Car("Auda", "A8", " в Германии", "черного ", 2020, " 3.0");
-        Car bMWZ8 = new Car("BMW", "Z8", " в Германии", "черного", 2021, " 3.0");
-        Car kiaSportage4 = new Car("Kia", "Sportage4", " в Южной Корее", "красного", 2018, " 2.4");
-        Car hyundaiAvante = new Car("Hyundai", "Avante", "в Южной Корее", "оранжевого", 2016, " 1.6");
+        Car ladaGrande = new Car( "Lada", " Grande ", " в России", " желтого ",  2015,  1.7);
+        Car audiA8 = new Car("Auda", "A8", " в Германии", "черного ", 2020,  3.0);
+        Car bMWZ8 = new Car("BMW", "Z8", " в Германии", "черного", 2021,  3.0);
+        Car kiaSportage4 = new Car("Kia", "Sportage4", " в Южной Корее", "красного", 2018,  2.4);
+        Car hyundaiAvante = new Car("Hyundai", "Avante", "в Южной Корее", "оранжевого", 2016,  1.6);
 
-        System.out.println( ladaGrande.mark + " " + ladaGrande.model + ", " + ladaGrande.yearOfProduction + " год выпуска, " + " сборка в " + ladaGrande.engineСapacity  + ", " + ladaGrande.bodyСolor + " цвета," + " обьем двигателя" + ladaGrande.countryOfAssembly);
-        System.out.println( audiA8.mark + " " + audiA8.model + ", " + audiA8.yearOfProduction + " год выпуска, " + " сборка в " + audiA8.engineСapacity  + ", " + audiA8.bodyСolor + " цвета," + " обьем двигателя" + audiA8.countryOfAssembly);
-        System.out.println( bMWZ8.mark + " " + bMWZ8.model + ", " + bMWZ8.yearOfProduction + " год выпуска, " + " сборка в " + bMWZ8.engineСapacity  + ", " + bMWZ8.bodyСolor + " цвета," + " обьем двигателя" + bMWZ8.countryOfAssembly);
-        System.out.println( kiaSportage4.mark + " " + kiaSportage4.model + ", " + kiaSportage4.yearOfProduction + " год выпуска, " + " сборка в " + kiaSportage4.engineСapacity  + ", " + kiaSportage4.bodyСolor + " цвета," + " обьем двигателя" + kiaSportage4.countryOfAssembly);
-        System.out.println( hyundaiAvante.mark + " " + hyundaiAvante.model + ", " + hyundaiAvante.yearOfProduction + " год выпуска, " + " сборка в " + hyundaiAvante.engineСapacity  + ", " + hyundaiAvante.bodyСolor + " цвета," + " обьем двигателя" + hyundaiAvante.countryOfAssembly);
+        System.out.println( ladaGrande.mark + " " + ladaGrande.model + ", " + ladaGrande.yearOfProduction + " год выпуска, " + " сборка в " + ladaGrande.engineСapacity  + ", " + ladaGrande.bodyСolor + " цвета," + " обьем двигателя " + ladaGrande.countryOfAssembly);
+        System.out.println( audiA8.mark + " " + audiA8.model + ", " + audiA8.yearOfProduction + " год выпуска, " + " сборка в " + audiA8.engineСapacity  + ", " + audiA8.bodyСolor + " цвета," + " обьем двигателя " + audiA8.countryOfAssembly);
+        System.out.println( bMWZ8.mark + " " + bMWZ8.model + ", " + bMWZ8.yearOfProduction + " год выпуска, " + " сборка в " + bMWZ8.engineСapacity  + ", " + bMWZ8.bodyСolor + " цвета," + " обьем двигателя " + bMWZ8.countryOfAssembly);
+        System.out.println( kiaSportage4.mark + " " + kiaSportage4.model + ", " + kiaSportage4.yearOfProduction + " год выпуска, " + " сборка в " + kiaSportage4.engineСapacity  + ", " + kiaSportage4.bodyСolor + " цвета," + " обьем двигателя " + kiaSportage4.countryOfAssembly);
+        System.out.println( hyundaiAvante.mark + " " + hyundaiAvante.model + ", " + hyundaiAvante.yearOfProduction + " год выпуска, " + " сборка в " + hyundaiAvante.engineСapacity  + ", " + hyundaiAvante.bodyСolor + " цвета," + " обьем двигателя " + hyundaiAvante.countryOfAssembly);
 
     }
 }
